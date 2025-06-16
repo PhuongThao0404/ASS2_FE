@@ -1,8 +1,7 @@
 import { ArrowLeft, Edit3, Trash2 } from "lucide-react";
 import type { Product } from "../types/product";
 
-const API_URL = "https://ass2-be-9i4x.onrender.com";
-
+const API_URL = "https://ass2-be-2.onrender.com"; 
 interface ProductDetailProps {
   product: Product;
   navigateTo: (page: string, product?: Product) => void;
