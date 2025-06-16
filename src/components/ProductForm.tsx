@@ -4,7 +4,7 @@ import type { ProductFormData } from "../types/product";
 import { createProduct, updateProduct } from "../services/api";
 import { AlertCircle, XCircle, Loader2 } from "lucide-react";
 
-const API_URL = "https://product-manage-1gs3.onrender.com";
+const API_URL = "https://ass2-be-9i4x.onrender.com";
 
 interface ProductFormProps {
   formData: ProductFormData;
