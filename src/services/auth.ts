@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { jwtDecode } from 'jwt-decode';
 
-const API_URL = 'https://ass2-be-9i4x.onrender.com/auth'; // Adjust this to your backend URL
+const API_URL = 'https://ass2-be-9i4x.onrender.com'; // Adjust this to your backend URL
 
 interface JWTPayload {
   email: string;

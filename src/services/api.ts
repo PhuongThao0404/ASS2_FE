@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { getAuthHeaders, getCurrentUser } from './auth';
 
-const API_URL = 'https://ass2-be-9i4x.onrender.com/products'; // Adjust this to your backend URL
+const API_URL = 'https://ass2-be-9i4x.onrender.com'; // Adjust this to your backend URL
 
 const createAuthenticatedRequest = () => {
   return axios.create({
